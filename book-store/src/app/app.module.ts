@@ -7,7 +7,7 @@ import { LoginComponent } from './components/login/login.component';
 import { BooklistComponent } from './components/booklist/booklist.component';
 import { BookComponent } from './components/book/book.component';
 import { CartComponent } from './components/cart/cart.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http'
 import { BookListService } from './service/booklist.service';
 import { CartstatusComponent } from './components/cartstatus/cartstatus.component';
@@ -25,7 +25,8 @@ import { CartstatusComponent } from './components/cartstatus/cartstatus.componen
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [BookListService],
   bootstrap: [AppComponent]

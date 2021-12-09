@@ -9,10 +9,7 @@ import { CartService } from 'src/app/service/cart.service';
   styleUrls: ['./book.component.scss']
 })
 export class BookComponent implements OnInit {
-  book: Book = new Book();
-
   constructor( private _cartService: CartService) { }
-
   ngOnInit(): void {
   }
 
@@ -20,7 +17,7 @@ export class BookComponent implements OnInit {
   bookObj :any;
   
   addToCart(){
-    const cartItem = new CartItem(this.book)
+    const cartItem = new CartItem(this.bookObj)
     this._cartService.addToCart(cartItem);
 
   }
