@@ -8,6 +8,7 @@ import { CartService } from 'src/app/service/cart.service';
 })
 export class CartstatusComponent implements OnInit {
 
+  totalPrice: number = 0;
   totalQuantity: number = 0;
   constructor(private _cartService:CartService) { }
 
@@ -17,6 +18,10 @@ export class CartstatusComponent implements OnInit {
 
   updateCartStatus() {
     //subscribe to the events
+
+    this._cartService.totalPrice.subscribe(
+      data => this.totalPrice = data
+    ) 
     this._cartService.totalQuantity.subscribe(
       data => this.totalQuantity = data
     )

@@ -38,20 +38,20 @@ export class CartService {
   }
   
   calculateTotalPrice() {
-    // let totalPriceValue: number = 0;
+    let totalPriceValue: number = 0;
     let totalQuantityValue: number = 0;
 
     for(let currentCartItem of this.cartItems){
-      // totalPriceValue += currentCartItem.quantity * currentCartItem.unitPrice;
+      totalPriceValue += currentCartItem.quantity * currentCartItem.unitPrice;
       totalQuantityValue += currentCartItem.quantity;
     }
 
-    // console.log(`Total price: ${totalPriceValue}, Total quantity: ${totalQuantityValue}`);
-    console.log(`Total quantity: ${totalQuantityValue}`);
+    console.log(`Total price: ${totalPriceValue}, Total quantity: ${totalQuantityValue}`);
+    // console.log(`Total quantity: ${totalQuantityValue}`);
     
-    // this.totalPrice.next(totalPriceValue);
+    this.totalPrice.next(totalPriceValue);
     this.totalQuantity.next(totalQuantityValue);
-    console.log(`Total quantityy: ${this.totalQuantity}`);
+    console.log(`Total price: ${totalPriceValue}, Total quantity: ${totalQuantityValue}`);
   }
 
   decrementQuantity(cartItem: CartItem){
