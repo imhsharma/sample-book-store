@@ -6,12 +6,14 @@ import { CartComponent } from './components/cart/cart.component';
 import { CartstatusComponent } from './components/cartstatus/cartstatus.component';
 
 import { LoginComponent } from './components/login/login.component';
+import { UpdateLibraryComponent } from './components/update-library/update-library.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'booklist', component: BooklistComponent },
   { path: 'cart', component: CartComponent },
-  {path:'bookcount',component: CartstatusComponent}];
+  {path:'bookcount',component: CartstatusComponent},
+  {path:'update',component:UpdateLibraryComponent}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

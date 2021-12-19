@@ -1,0 +1,22 @@
+<form>
+    <div  class="form-group col-md-6">
+        <label for="bookName1" >Book Name</label>
+        <input [(ngModel)]="bookName" name="bookName1" type="string" class="form-control" id="bookName1" placeholder="Book Name">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="author1" >Author Name</label>
+        <input [(ngModel)]="authorName" name="author1" type="string" class="form-control" id="author1" placeholder="Author Name">
+      </div>
+        <div class="form-group">
+          <label for="sel1">Select Type:</label>
+                  <select [(ngModel)]="selectedValue" name="sel1" class="form-control" id="sel1">
+                    <option (click)="onSelectCategory(cat)" *ngFor="let cat of bookCategories">{{cat}}
+                  </select>
+        </div>        
+      <div class="form-group col-md-6">
+
+        <label for="price1" >Price</label>
+        <input [(ngModel)]="priceValue" name="price1" type="number" class="form-control" id="price1" placeholder="Price">
+      </div>
+    <button type="submit" (click)="addBook()"  class="btn btn-primary">Add Book</button>
+  </form>

@@ -1,6 +1,23 @@
+
+<div class="container">
+<div class="row">
+  <div class="dropdown show">
+    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Select Category
+    </a>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <a class="dropdown-item" (click)="onSelectCategory('')">All</a>
+      <a class="dropdown-item" (click)="onSelectCategory(cat)" *ngFor="let cat of bookCategories">{{cat}}</a>
+    </div>
+  </div>
+</div>
+
 <div class="row">
 
-      <div *ngFor="let list of booklist" class="col-sm-3">
+      <div *ngFor="let list of selectedBooklist" class="col-sm-3">
         <app-book [bookObj]="list"></app-book>
       </div>
   </div>
+
+
+</div>

@@ -3,6 +3,8 @@ export class Book {
     name: any;
     author:any;
     price:any;
-    image:any
+    image:any;
+    type:any;
+    
     
 }

@@ -1,75 +1,116 @@
 {
-    "list":[
-        {
-            "id":"1",
-            "name":"Book1",
-            "author":"harsh",
-            "price":"10",
-            "image":""
-        },
-        {
-            "id":"2",
-            "name":"Book2",
-            "author":"harsh",
-            "price":"10",
-            "image":""
-        },
-        {
-            "id":"3",
-            "name":"Book3",
-            "author":"harsh",
-            "price":"10",
-            "image":""
-        },
-        {
-            "id":"4",
-            "name":"Book4",
-            "author":"harsh",
-            "price":"10",
-            "image":""
-        },
-        {
-            "id":"5",
-            "name":"Book5",
-            "author":"harsh",
-            "price":"10",
-            "image":""
-        },
-        {
-            "id":"6",
-            "name":"Book6",
-            "author":"harsh",
-            "price":"10",
-            "image":""
-        },
-        {
-            "id":"7",
-            "name":"Book7",
-            "author":"harsh",
-            "price":"10",
-            "image":""
-        },
-        {
-            "id":"8",
-            "name":"Book18",
-            "author":"harsh",
-            "price":"10",
-            "image":""
-        },
-        {
-            "id":"9",
-            "name":"Book19",
-            "author":"harsh",
-            "price":"10",
-            "image":""
-        },
-        {
-            "id":"10",
-            "name":"Book20",
-            "author":"harsh",
-            "price":"10",
-            "image":""
-        }
-
-    ]
+  "list": [
+    {
+      "id": "1",
+      "name": "Book1",
+      "author": "harsh",
+      "price": "10",
+      "type": "Horror",
+      "image": ""
+    },
+    {
+      "id": "2",
+      "name": "Book2",
+      "author": "harsh",
+      "price": "10",
+      "type": "Inspirational",
+      "image": ""
+    },
+    {
+      "id": "3",
+      "name": "Book3",
+      "author": "harsh",
+      "price": "10",
+      "type": "Fictional",
+      "image": ""
+    },
+    {
+      "id": "4",
+      "name": "Book4",
+      "author": "harsh",
+      "price": "10",
+      "type": "Action and Adventure",
+      "image": ""
+    },
+    {
+      "id": "5",
+      "name": "Book5",
+      "author": "harsh",
+      "price": "10",
+      "type": "Suspense and Thriller",
+      "image": ""
+    },
+    {
+      "id": "6",
+      "name": "Book6",
+      "author": "harsh",
+      "price": "10",
+      "type": "Horror",
+      "image": ""
+    },
+    {
+      "id": "7",
+      "name": "Book7",
+      "author": "harsh",
+      "price": "10",
+      "type": "Suspense and Thriller",
+      "image": ""
+    },
+    {
+      "id": "8",
+      "name": "Book18",
+      "author": "harsh",
+      "price": "10",
+      "type": "Inspirational",
+      "image": ""
+    },
+    {
+      "id": "9",
+      "name": "Book19",
+      "author": "harsh",
+      "price": "10",
+      "type": "Fictional",
+      "image": ""
+    },
+    {
+      "id": "10",
+      "name": "Book20",
+      "author": "harsh",
+      "price": "10",
+      "type": "Action and Adventure",
+      "image": ""
+    },
+    {
+      "id": "11",
+      "name": "Book11",
+      "author": "Robin Hood",
+      "price": "10",
+      "type": "Inspirational",
+      "image": ""
+    },
+    {
+      "id": "12",
+      "name": "Book12",
+      "author": "Viyun",
+      "price": "10",
+      "type": "Suspense and Thriller",
+      "image": ""
+    },
+    {
+      "id": "213",
+      "name": "Fountain Head",
+      "author": "New 1",
+      "price": "10",
+      "type": "Horror",
+      "image": ""
+    },
+    {
+      "id": "d6b094a8-62b0-4779-a146-0f631b9ba188",
+      "author": "Varun",
+      "type": "Horror",
+      "name": "abc",
+      "price": 1,
+      "image": ""
+    }
+  ]
 }

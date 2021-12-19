@@ -11,6 +11,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http'
 import { BookListService } from './service/booklist.service';
 import { CartstatusComponent } from './components/cartstatus/cartstatus.component';
+import { UpdateLibraryComponent } from './components/update-library/update-library.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CartstatusComponent } from './components/cartstatus/cartstatus.componen
     BooklistComponent,
     BookComponent,
     CartComponent,
-    CartstatusComponent
+    CartstatusComponent,
+    UpdateLibraryComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,7 @@ import { CartstatusComponent } from './components/cartstatus/cartstatus.componen
     HttpClientModule,
     FormsModule
   ],
-  providers: [BookListService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
