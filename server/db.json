@@ -111,6 +111,14 @@
       "name": "abc",
       "price": 1,
       "image": ""
+    },
+    {
+      "id": "fc4a2512-d27f-4544-a471-fb7dfb8eb894",
+      "author": "Naik",
+      "type": "Inspirational",
+      "name": "Naik Book",
+      "price": 100,
+      "image": ""
     }
   ]
 }

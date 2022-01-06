@@ -12,6 +12,7 @@ import {HttpClientModule} from '@angular/common/http'
 import { BookListService } from './service/booklist.service';
 import { CartstatusComponent } from './components/cartstatus/cartstatus.component';
 import { UpdateLibraryComponent } from './components/update-library/update-library.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { UpdateLibraryComponent } from './components/update-library/update-libra
     BookComponent,
     CartComponent,
     CartstatusComponent,
-    UpdateLibraryComponent
+    UpdateLibraryComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,7 @@ import { UpdateLibraryComponent } from './components/update-library/update-libra
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [BookListService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
