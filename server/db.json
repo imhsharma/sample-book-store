@@ -120,5 +120,29 @@
       "price": 100,
       "image": ""
     }
-  ]
+  ],
+  "country":[
+    {
+    "id":"1",
+    "code":"1",
+    "name":"India"
+    },
+    {
+      "id":"2",
+      "code":"2",
+      "name":"USA"
+
+    }],
+    "state":[
+      {
+        "id":"1",
+        "name":["Haryana","Karnataka","Delhi"],
+        "country_cc":"1"
+      },
+      {
+        "id":"2",
+        "name":["Texas","Florida","Ohio"],
+        "country_cc":"2"
+      }
+    ]
 }
